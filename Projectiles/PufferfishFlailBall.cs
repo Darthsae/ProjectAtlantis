@@ -7,7 +7,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace PASS.Projectiles
+namespace ProjectAtlantis.Projectiles
 {
     public class PufferfishFlailBall : ModProjectile
     {
@@ -35,7 +35,7 @@ namespace PASS.Projectiles
         {
             // So set the correct path here to load the chain texture. 'YourModName' is of course the name of your mod.
             // Then into the Projectiles folder and take the texture that is called 'CustomFlailBall_Chain'.
-            Texture2D texture = ModContent.GetTexture("PASS/Projectiles/PufferfishFlailChain");
+            Texture2D texture = ModContent.GetTexture("ProjectAtlantis/Projectiles/PufferfishFlailChain");
 
             Vector2 position = projectile.Center;
             Vector2 mountedCenter = Main.player[projectile.owner].MountedCenter;
