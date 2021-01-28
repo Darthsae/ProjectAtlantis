@@ -39,7 +39,7 @@ namespace ProjectAtlantis.Projectiles.Minions
 
 		public override void CheckActive() {
 			Player player = Main.player[projectile.owner];
-			PASSPlayer modPlayer = player.GetModPlayer<ProjectAtlantisPlayer>();
+			PASSPlayer modPlayer = player.GetModPlayer<PASSAtlantisPlayer>();
 			if (player.dead) {
 				modPlayer.NautlisMinion = false;
 			}
