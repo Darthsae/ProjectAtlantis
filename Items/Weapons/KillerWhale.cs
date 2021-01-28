@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace PASS.Items
+namespace ProjectAtlantis.Items.Weapons
 {
 	public class KillerWhale : ModItem
 	{
