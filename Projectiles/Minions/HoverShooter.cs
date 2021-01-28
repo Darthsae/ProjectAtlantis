@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using System;
 using Terraria;
 
-namespace PASS.Projectiles.Minions
+namespace ProjectAtlantis.Projectiles.Minions
 {
 	public abstract class HoverShooter : Minion
 	{
