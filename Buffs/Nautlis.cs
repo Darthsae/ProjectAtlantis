@@ -13,7 +13,7 @@ namespace ProjectAtlantis.Buffs
 		}
 
 		public override void Update(Player player, ref int buffIndex) {
-			PASSPlayer modPlayer = player.GetModPlayer<ProjectAtlantisPlayer>();
+			PASSPlayer modPlayer = player.GetModPlayer<PASSAtlantisPlayer>();
 			if (player.ownedProjectileCounts[mod.ProjectileType("Nautlis")] > 0) {
 				modPlayer.NautlisMinion = true;
 			}
