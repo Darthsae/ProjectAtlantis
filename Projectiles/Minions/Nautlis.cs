@@ -7,7 +7,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 
-namespace PASS.Projectiles.Minions
+namespace ProjectAtlantis.Projectiles.Minions
 {
 	// PurityWisp uses inheritace as an example of how it can be useful in modding.
 	// HoverShooter and Minion classes help abstract common functionality away, which is useful for mods that have many similar behaviors.
@@ -39,7 +39,7 @@ namespace PASS.Projectiles.Minions
 
 		public override void CheckActive() {
 			Player player = Main.player[projectile.owner];
-			PASSPlayer modPlayer = player.GetModPlayer<PASSPlayer>();
+			PASSPlayer modPlayer = player.GetModPlayer<ProjectAtlantisPlayer>();
 			if (player.dead) {
 				modPlayer.NautlisMinion = false;
 			}
