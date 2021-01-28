@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace PASS.Buffs
+namespace ProjectAtlantis.Buffs
 {
 	public class NautlisAguar : ModBuff
 	{
