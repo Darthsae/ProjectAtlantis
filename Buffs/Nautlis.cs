@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace PASS.Buffs
+namespace ProjectAtlantis.Buffs
 {
 	public class Nautlis : ModBuff
 	{
@@ -13,7 +13,7 @@ namespace PASS.Buffs
 		}
 
 		public override void Update(Player player, ref int buffIndex) {
-			PASSPlayer modPlayer = player.GetModPlayer<PASSPlayer>();
+			PASSPlayer modPlayer = player.GetModPlayer<ProjectAtlantisPlayer>();
 			if (player.ownedProjectileCounts[mod.ProjectileType("Nautlis")] > 0) {
 				modPlayer.NautlisMinion = true;
 			}
