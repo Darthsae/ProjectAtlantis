@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace PASS.Projectiles.Minions
+namespace ProjectAtlantis.Projectiles.Minions
 {
 	public class WaterBolt : ModProjectile
 	{
