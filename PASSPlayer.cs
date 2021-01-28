@@ -9,7 +9,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameInput;
 
-namespace PASS
+namespace ProjectAtlantis
 {
     public class PASSPlayer : ModPlayer
     {
