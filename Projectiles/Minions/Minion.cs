@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 
-namespace PASS.Projectiles.Minions
+namespace ProjectAtlantis.Projectiles.Minions
 {
 	public abstract class Minion : ModProjectile
 	{
