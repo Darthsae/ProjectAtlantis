@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace PASS.Dusts
+namespace ProjectAtlantis.Dusts
 {
 	public class BettaBubbleDust : ModDust
 	{
