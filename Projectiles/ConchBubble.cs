@@ -6,7 +6,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace PASS.Projectiles
+namespace ProjectAtlantis.Projectiles
 {
 	public class ConchBubble : ModProjectile
 	{
